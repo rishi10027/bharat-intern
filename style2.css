@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    margin: auto;
+    width: 84%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+.link{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+    cursor: pointer; 
+    text-decoration: none; 
+}
+.link-2{
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer; 
+    text-decoration:none;
+    font-weight: 500; 
+    font-size: 50%;
+}
+.img-set{
+    background-color: white;
+}
+.detail{
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.detail h1{
+    font-family:cursive;
+}
+.detail p{
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.detail button a:hover{
+    color: darkgray;
+}
+.detail h1 span{
+    color:chocolate;
+    font-family:cursive;
+}
+.button-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3b3c36 ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    border: 2px solid beige;
+    border-radius: 5px;
+}
+.image-1{
+    width: 30%;
+    height: 65%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 750px;
+    top: 195px;
+    border-radius: 20px;
+}
+.project-info{
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 130px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #F9F6EE;
+    color: #3b3c36;
+}
+.copyright{
+    text-align: center;
+    font-weight: lighter;
+}
